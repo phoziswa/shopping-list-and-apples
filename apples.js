@@ -1,14 +1,24 @@
 
 function totalNumberSold(applesSoldList) {
-	return 0;
+	var total = 0
+	for(var i = 0; i<applesSoldList.length ;i++){
+		total	+= applesSoldList[i].qty
+	}
+	return total;
 }
 
 function totalIncome(applesSoldList) {
-	return 0;
+	
+		
+	return applesSoldList.value;
 }
 
 function totalIncomeGreenApples(applesSoldList){
-	return 0;
+	var greenTotal = 0;
+	
+		greenTotal	+= applesSoldList.value
+	
+	return greenTotal;
 }
 
 function totalProfit(applesSoldList, applePriceMap){

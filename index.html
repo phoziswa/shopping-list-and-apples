@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link rel="stylesheet" href="apples-grid.css">
+	<link rel="stylesheet" href="apples.css">
 </head>
+
 <body>
-	<h1>Shopping list</h1>
+	<h1>Shopping list </h1>
+	<div claas="row">
+
+		<span class="budget">topic word <input type="text" name="fname" placeholder="">
+			<button class=" addBtn" type="button" name="button">Add</button>
+		</span>
+		<br>
+		<br>
+	</div>
+	<div class="row">
+			<select>
+					<option value="chips">chips</option>
+					<option value="milk">milk</option>
+					<option value="apple">apple</option>
+					<option value="rice">rice</option>
+			</select>		
+		     <span>Price <td>R<span>0.00</span> </td></span>
+		</div>
+
+	<div class="row">
+		<span class="budgetAmount">total budget <span>R100</span></span>
+	</div>
+	<br>
+	<br>
+	<div class="row">
+		<div class="warning"><span>warning 
+				<td>R<span>0.00</span> </td></span>
+		</div>
+	</div>
+	<br>
+	<br>
+	<ul id="myUL">
+  
+</ul>
+	
+	<script src="shopping-list.js" charset="utf-8"></script>
+	<script src="shopping-list-dom.js" charset="utf-8"></script>
 </body>
+
 </html>

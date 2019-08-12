@@ -1,0 +1,14 @@
+h1{
+justify-content: center;
+display: flex;
+font-size: 4em;
+}
+.budget{
+  font-size: 2em;
+}
+.budgetAmount{
+  font-size: 1em;
+}
+.choose{
+  font-size: 1.5em;
+}
